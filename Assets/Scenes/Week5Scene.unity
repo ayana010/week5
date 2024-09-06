@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   studentNumber: 25639396
-  Deactivate: 5
+  Deactivate: 7
 --- !u!1 &538597381
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,6 +197,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   redPrefab: {fileID: 1881030350137412, guid: 7a19b079ec2b247e39b3072fb248d5b2, type: 3}
   bluePrefab: {fileID: 1877882362655864, guid: 2cf8d3958aba045839eff1c38d50d600, type: 3}
+  redObj: {fileID: 1881030350137412, guid: 7a19b079ec2b247e39b3072fb248d5b2, type: 3}
+  blueObj: {fileID: 1877882362655864, guid: 2cf8d3958aba045839eff1c38d50d600, type: 3}
 --- !u!4 &538597383
 Transform:
   m_ObjectHideFlags: 0

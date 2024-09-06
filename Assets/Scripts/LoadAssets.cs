@@ -7,8 +7,8 @@ public class LoadAssets : MonoBehaviour
     public GameObject redPrefab;  // redPrefabの参照
     public GameObject bluePrefab; // bluePrefabの参照
 
-    private GameObject redObj;    // redObjの参照
-    private GameObject blueObj;   // blueObjの参照
+     public GameObject redObj;    // redObjの参照を公開
+    public GameObject blueObj;   // blueObjの参照を公開
 
     void Awake()
     {
