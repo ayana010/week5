@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 114886805048851112}
   m_Layer: 0
   m_Name: BluePrefab
-  m_TagString: Red
+  m_TagString: Blue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

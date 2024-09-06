@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   studentNumber: 25639396
-  Deactivate: 2
+  Deactivate: 3
 --- !u!1 &538597381
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,8 +195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d1b163ec01714adab313d4efca05e48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  redObj: {fileID: 1881030350137412, guid: 7a19b079ec2b247e39b3072fb248d5b2, type: 3}
-  blueObj: {fileID: 1877882362655864, guid: 2cf8d3958aba045839eff1c38d50d600, type: 3}
+  redPrefab: {fileID: 1881030350137412, guid: 7a19b079ec2b247e39b3072fb248d5b2, type: 3}
+  bluePrefab: {fileID: 1877882362655864, guid: 2cf8d3958aba045839eff1c38d50d600, type: 3}
 --- !u!4 &538597383
 Transform:
   m_ObjectHideFlags: 0
@@ -315,8 +315,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1153005957}
   - component: {fileID: 1153005956}
+  - component: {fileID: 1153005958}
   - component: {fileID: 1153005954}
   - component: {fileID: 1153005953}
+  - component: {fileID: 1153005959}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -406,6 +408,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1153005958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153005952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61499057b76f4cd392a903b40786d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1153005959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153005952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61499057b76f4cd392a903b40786d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
